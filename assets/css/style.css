@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+/* header settings */
+header {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  display: inline-block;
+  margin-left: 15px;
+}
+h1 span {
+  font-weight: lighter;
+  padding-left: 5px;
+}
+h1::after {
+  content: " ";
+  display: block;
+  background-color: royalblue;
+  width: 187px;
+  height: 10px;
+  margin-top: -10px;
+}
+nav ul {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  padding: 0 35px;
+  color: rgb(103, 138, 241);
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-position: under;
+}
+nav ul li a::before {
+}
