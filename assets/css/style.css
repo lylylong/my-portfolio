@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  text-decoration: none;
 }
 :root {
   --lightblue: rgb(103, 138, 241);
@@ -9,7 +10,6 @@
 /* header settings */
 header {
   background-color: var(--darkgrey);
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   display: flex;
@@ -80,4 +80,75 @@ nav ul li a:hover {
 }
 .welcome-bar h2 {
   font-weight: lighter;
+}
+/* portfolio contents */
+.portfolio-background {
+  box-sizing: border-box;
+  width: 100%;
+}
+.portfolio-grid-container {
+  margin: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 2fr repeat(2, 1fr);
+  border: 3px solid var(--darkgrey);
+  grid-gap: 20px;
+}
+.small-titles {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-right: 3px solid royalblue;
+}
+.about-me-content {
+  grid-column: 2 / span 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+}
+.portfolio-title {
+  grid-row: 2 / span 2;
+}
+.portfolio-large {
+  background-color: var(--lightblue);
+  grid-column: span 2;
+}
+.portfolio-med {
+  background-color: var(--lightblue);
+}
+.portfolio-small-1 {
+  background-color: var(--lightblue);
+  grid-column: 2 / 3;
+}
+.portfolio-small-2,
+.portfolio-small-3 {
+  background-color: var(--lightblue);
+}
+.contact-me-title {
+  grid-column: 1 / 2;
+  grid-row: -2 / -1;
+}
+.contact-info {
+  grid-row: -2 / -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: royalblue;
+}
+.small-titles,
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone::before {
+  content: "📞";
+  margin-right: 5px;
+}
+.email::before {
+  content: "📧";
+  margin-right: 5px;
+}
+.github a {
+  color: royalblue;
+}
+.github::before {
+  content: "🔗";
+  margin-right: 5px;
 }
