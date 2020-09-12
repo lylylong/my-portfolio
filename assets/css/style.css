@@ -36,14 +36,15 @@ nav ul {
   list-style: none;
 }
 nav ul li a {
-  padding: 0 35px;
+  padding: 3px 10px;
+  margin: 0 25px;
   color: rgb(103, 138, 241);
   font-size: 1.2rem;
   font-weight: lighter;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-color: white;
-  text-underline-position: under;
+  border-bottom: 2px solid white;
+  text-decoration: none;
 }
-nav ul li a::before {
+nav ul li a:hover {
+  border: 2px solid white;
 }
