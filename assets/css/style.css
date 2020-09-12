@@ -1,15 +1,19 @@
 * {
   margin: 0;
 }
+:root {
+  --lightblue: rgb(103, 138, 241);
+  --darkgrey: rgb(56, 56, 56);
+}
 
 /* header settings */
 header {
-  background-color: rgb(56, 56, 56);
+  background-color: var(--darkgrey);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -38,7 +42,7 @@ nav ul {
 nav ul li a {
   padding: 3px 10px;
   margin: 0 25px;
-  color: rgb(103, 138, 241);
+  color: var(--lightblue);
   font-size: 1.2rem;
   font-weight: lighter;
   text-align: center;
@@ -47,4 +51,32 @@ nav ul li a {
 }
 nav ul li a:hover {
   border: 2px solid white;
+}
+
+/* hero settings */
+.hero {
+  background-color: var(--lightblue);
+  width: 100%;
+  height: 225px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--lightblue),
+    royalblue 60px
+  );
+}
+.welcome-bar {
+  padding: 10px 20px;
+  margin: 35px;
+  background-color: var(--darkgrey);
+  width: fit-content;
+  height: fit-content;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.welcome-bar h2 {
+  font-weight: lighter;
 }
