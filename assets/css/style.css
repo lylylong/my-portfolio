@@ -5,6 +5,7 @@
 :root {
   --lightblue: rgb(103, 138, 241);
   --darkgrey: rgb(56, 56, 56);
+  --light: rgb(165, 186, 250);
 }
 
 /* header settings */
@@ -87,40 +88,85 @@ nav ul li a:hover {
   width: 100%;
 }
 .portfolio-grid-container {
-  margin: 35px;
+  margin: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 2fr repeat(2, 1fr);
-  border: 3px solid var(--darkgrey);
+  grid-template-rows: 1fr 3.5fr 2fr 0.6fr;
   grid-gap: 20px;
 }
 .small-titles {
   font-size: 2rem;
+  color: var(--darkgrey);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-right: 3px solid royalblue;
+  border-right: 5px solid var(--light);
 }
 .about-me-content {
   grid-column: 2 / span 3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+.about-me-content p {
+  padding-top: 10px;
 }
 .portfolio-title {
   grid-row: 2 / span 2;
 }
 .portfolio-large {
-  background-color: var(--lightblue);
+  background-image: url(../images/app-design.jpg);
+  background-size: cover;
+  background-position: center;
   grid-column: span 2;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid var(--light);
+}
+.portfolio-large h3,
+.portfolio-med h3 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  background-color: royalblue;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  padding: 0.4em 1em;
+}
+.portfolio-large:hover,
+.portfolio-med:hover {
+  opacity: 0.5;
 }
 .portfolio-med {
-  background-color: var(--lightblue);
+  background-image: url(../images/Case-1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid var(--light);
+}
+.brand-design {
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid var(--light);
+  text-transform: uppercase;
+}
+.brand-design h3 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  background-color: var(--light);
+  font-size: 0.8rem;
+  padding: 0.4em 1em;
+}
+.brand-design:hover {
+  opacity: 0.5;
 }
 .portfolio-small-1 {
-  background-color: var(--lightblue);
+  background-image: url(../images/mac-logo.png);
   grid-column: 2 / 3;
 }
-.portfolio-small-2,
+.portfolio-small-2 {
+  background-image: url(../images/SB.jpg);
+}
 .portfolio-small-3 {
-  background-color: var(--lightblue);
+  background-image: url(../images/TraxionSP.png);
 }
 .contact-me-title {
   grid-column: 1 / 2;
