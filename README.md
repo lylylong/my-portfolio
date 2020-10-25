@@ -16,6 +16,10 @@ https://lylylong.github.io/my-portfolio/
 
 https://github.com/lylylong/my-portfolio.git
 
+## GitHub Covid-19 Tracking App URL
+
+https://github.com/BrieBencich/Covid-19-Tracking
+
 ## Screenshots
 
 ![LY Portfolio](https://user-images.githubusercontent.com/70302749/97098043-ffcfca00-164e-11eb-944b-1bce7a504c39.jpg)
