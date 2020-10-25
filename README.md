@@ -18,7 +18,7 @@ https://github.com/lylylong/my-portfolio.git
 
 ## Screenshots
 
-![Screen Shot](https://user-images.githubusercontent.com/70302749/93012953-563aea80-f572-11ea-8684-b6b742122f47.png)
+![LY Portfolio](https://user-images.githubusercontent.com/70302749/97098043-ffcfca00-164e-11eb-944b-1bce7a504c39.jpg)
 ​
 
 ## Installation
