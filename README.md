@@ -16,17 +16,17 @@ https://lylylong.github.io/my-portfolio/
 
 https://github.com/lylylong/my-portfolio.git
 
-## Covid-19 Tracking App URL
+## Cake Lab URL
 
-https://briebencich.github.io/Covid-19-Tracking/
+https://cake-lab-app.herokuapp.com/
 
-## GitHub Covid-19 Tracking App URL
+## GitHub Cake Lab URL
 
-https://github.com/BrieBencich/Covid-19-Tracking
+https://github.com/lylylong/cake-app.git
 
 ## Screenshots
 
-![LY Portfolio](https://user-images.githubusercontent.com/70302749/97098043-ffcfca00-164e-11eb-944b-1bce7a504c39.jpg)
+![LY Portfolio](https://user-images.githubusercontent.com/70302749/102698108-eab78780-4208-11eb-84a6-87cc9478516f.jpg)
 ​
 
 ## Installation
