@@ -26,7 +26,7 @@ https://github.com/lylylong/cake-app.git
 
 ## Screenshots
 
-![LY Portfolio](https://user-images.githubusercontent.com/70302749/102698108-eab78780-4208-11eb-84a6-87cc9478516f.jpg)
+![LY Portfolio](https://user-images.githubusercontent.com/70302749/102698950-379e5c80-420f-11eb-813f-4a0bd55ec46a.jpg)
 ​
 
 ## Installation

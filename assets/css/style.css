@@ -162,19 +162,20 @@ nav ul li a:hover {
   border: 1px solid var(--light);
   text-transform: uppercase;
 }
+.brand-design h3 a,
 .brand-design h3 {
   display: flex;
   justify-content: flex-end;
   color: white;
   background-color: var(--light);
   font-size: 0.8rem;
-  padding: 0.4em 1em;
+  padding: 0.2em 1em;
 }
 .brand-design:hover {
   opacity: 0.5;
 }
 .portfolio-small-1 {
-  background-image: url(../images/mac-logo.png);
+  background-image: url(../images/covid-19-tracking.png);
   grid-column: 2 / 3;
 }
 .portfolio-small-2 {
